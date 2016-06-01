@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="16dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/forecast_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/forecast_date"
+            android:textSize="18sp"
+            android:text="今日"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/forecast_temp"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:text="5°10°"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#969696"
+            android:layout_marginTop="4dp"
+            android:textSize="10sp"
+            android:layout_below="@+id/forecast_date"
+            android:id="@+id/forecast_text"
+            android:text="多云.最高30℃。西北风 20 到 15 km/h"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

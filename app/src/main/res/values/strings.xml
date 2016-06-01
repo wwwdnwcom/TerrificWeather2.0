@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TerrificWeather</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="intruduction_main">极好天气是一款简单实用的天气预报软件，能看近一周的天气情况，且有根据当天天气情况的建议，祝你用的愉快</string>
+    <string-array name="icons">
+        <item>图标一</item>
+        <item>图标二</item>
+    </string-array>
+
+    <string-array name="cache_time">
+        <item>禁止刷新</item>
+        <item>每1小时</item>
+        <item>每3小时</item>
+        <item>每6小时</item>
+    </string-array>
+</resources>

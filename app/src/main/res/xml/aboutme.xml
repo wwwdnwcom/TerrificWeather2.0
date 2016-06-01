@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="极好天气">
+        <Preference
+            android:title="应用介绍"
+            android:summary="@string/intruduction_main"
+            />
+        <Preference
+            android:key="github"
+            android:summary="https://github.com/wwwdnwcom"
+            android:title="我的github"
+            />
+        <Preference
+            android:key="email"
+            android:summary="641394000@qq.com"
+            android:title="我的邮箱"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="版权"
+        >
+        <Preference
+            android:title="数据接口"
+            android:summary="和风天气API接口"
+            />
+        <Preference
+            android:title="图片来源"
+            android:summary="网络收集"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
